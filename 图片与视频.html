@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片与视频</title>
+</head>
+<body>
+    <h1>图片与视频</h1>
+    <h2>1.图片</h2>
+    <img src="./图片与视频/510c9387cd90126aec.jpg" alt="阿米娅" title="阿米娅" width="400">
+    <img src="./图片与视频/8dd47bc2808c929093.gif" alt="抓娃娃" title="抓娃娃" width="400">
+
+
+    <h2>2.视频</h2>
+    <!-- controls添加控制系统  autoplay自动播放 muted静音 要先静音才可自动播放 loop循环播放 poster设置封面 -->    
+    <video src="./图片与视频/【哲风壁纸】二次元-原神-叼草.mp4" width="500" controls  autoplay muted loop ></video>
+
+
+    <h2>3.source实验</h2>
+    <video controls width="500" poster="./图片与视频/510c9387cd90126aec.jpg">
+        <source src="./图片与视频/【哲风壁纸】二次元-原神-叼草.mp4" type="video/mp4">
+        <p>请升级</p>
+       
+    </video>
+    <video controls poster="./图片与视频/a14d5b0f7b3154077687f4f7273caa03e6ea2d61.jpg" width="500">
+        <source src="./图片与视频/42112320961-1-192.mp4" type="video/mp4">
+    </video>
+
+     <!-- 音频与视频相似 但无width，poster同时音频为audio，视频为video -->
+      <!-- 音频标签浏览器不让自动播放，将来可用javeplays实现 -->
+    <h2>音频</h2>
+    <audio src="./图片与视频/sample-12s.mp3" controls autoplay></audio>
+    <h2>超链接</h2>
+
+
+
+
+
+
+
+
+</body>
+</html>
